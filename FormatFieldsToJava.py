@@ -32,7 +32,7 @@ def format_fields_to_java(filePath, className):
                     if dataType == 'string':
                         dataTypeValue = 'private String ' + variableName + ';'
                     elif dataType == 'integer':
-                        dataTypeValue = 'private int' + variableName + ';'
+                        dataTypeValue = 'private int ' + variableName + ';'
                     elif dataType == 'boolean':
                         dataTypeValue = 'private boolean ' + variableName + ';'
                     elif 'Array' in dataType:
